@@ -1,0 +1,258 @@
+.hero__wrapper{
+  display: flex;
+}
+
+
+.hero__form{
+  display: flex;
+  width: 711px;
+  flex-wrap: wrap;
+  margin-right: 60px;
+}
+
+.hero__label{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color:#fff;
+
+}
+
+.hero__label1{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  color:#fff;
+
+}
+
+.hero__input1{
+  display: block;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding: 14px 25px;
+  width: 393px;
+  border-radius: 25px;
+  color:#707071;
+  opacity: 0.1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border:1px solid #ffffff;
+}
+.hero__input2{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 14px 25px;
+  width: 288px;
+  color:#707071;
+  border:1px solid #fff;
+  border-radius: 25px;
+  opacity: 0.1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.hero__input3{
+  display: block;
+  margin-top: 10px;
+  margin-right: 35px;
+  margin-bottom: 20px;
+  width: 338px;
+  color:#707071;
+  padding: 14px 25px;
+  border:1px solid #fff;
+  border-radius: 25px;
+  opacity: 0.1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.hero__input4{
+  display: block;
+  width: 338px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 14px 25px;
+  border:1px solid #fff;
+  border-radius: 25px;
+  color:#707071;
+  opacity: 0.1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.hero__select1{
+  display: block;
+  width: 287px;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding: 14px 25px;
+  border:1px solid #fff;
+  border-radius: 25px;
+  color:#707071;
+  opacity: 0.1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.hero__select2{
+  display: block;
+  width: 394px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 14px 25px;
+  border:1px solid #fff;
+  border-radius: 25px;
+  color:#707071;
+  opacity: 0.1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.hero__textarea{
+  width: 711px;
+  height: 168px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border:1px solid #fff;
+  border-radius: 25px;
+  opacity: 0.1;
+}
+
+.hero__btn{
+  width: 127px;
+  margin-bottom: 235px;
+  padding:10px 15px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  color:#fff;
+  background-color: #0040DD;
+}
+
+
+.hero__user{
+  width: 440px;
+}
+
+.hero__title{
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFFFFF;
+
+}
+
+.hero__text1{
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 26px;
+  color:#fff;
+  opacity: 0.6;
+}
+.hero__text2{
+  display: none;
+}
+
+@media only screen and(max-width:425px){
+  .hero__wrapper{
+    flex-direction: column-reverse;
+  }
+  .hero__input1{
+    display: block;
+    width: 343px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 16px;
+  }
+  .hero__input2{
+    display: block;
+    width: 343px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 16px;
+  }
+  .hero__input3{
+    display: block;
+    width: 343px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 16px;
+  }
+  .hero__input4{
+    display: block;
+    width: 343px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 16px;
+  }
+  .hero__select1{
+    display: block;
+    width: 343px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 0 16px;
+  }
+  .hero__select2{
+    display: block;
+    width: 343px;
+    height: 50px;
+    margin-bottom:30px;
+    padding: 0 16px;
+  }
+  .hero__label1{
+    display: none;
+  }
+  .hero__textarea{
+    display: none;
+  }
+
+  .hero__btn{
+    display: block;
+    width: 343px;
+    height: 42px;
+    text-align: left;
+    margin: 0 16px 65px ;
+    
+  }
+
+  .hero__btn-img{
+    margin-left: 210px;
+  }
+
+  .hero__user{
+    width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .hero__title{
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero__text1{
+    display: none;
+  }
+
+  .hero__text2{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px; 
+    color:#fff;
+    opacity: 0.6;
+  }
+}
+  

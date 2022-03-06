@@ -8,6 +8,92 @@
   <title>Template Repo</title>
 </head>
 <body>
-  
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__wrapper">
+        <a class="site-header__logo-link">
+          <img class="site-header__logo" src="./images/logo-removebg 1.svg" alt="site logo">
+        </a>
+        <nav class="nav-bar">
+          <ul class="nav-bar__list">
+            <li class="nav-bar__item">
+              <a class="nav-bar__item-link" href="./index.html">Services</a>
+            </li>
+            
+            <li class="nav-bar__item">
+              <a class="nav-bar__item-link" href="#">Portfolio</a>
+            </li>
+           
+            <li class="nav-bar__item">
+              <a class="nav-bar__item-link" href="#">About us</a>
+            </li>
+          </ul>
+          <span class="nav-bar__span">
+            <ul class=" nav-bar__span-list">
+              <li class="nav-bar__span-item"><a class="nav-bar__span-link" href="#">Uz</a></li>
+              <li class="nav-bar__span-item"><a class="nav-bar__span-link" href="#">Ru</a></li>
+              <li class="nav-bar__span-item"><a class="nav-bar__span-link" href="#">En</a></li>
+            </ul>
+          </span>
+        </nav>
+        <span class="site-header__span">
+          <img src="./images/Vector.svg" alt="button">
+        </span>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <form class="hero__form" action="https://echo.htmlacademy.ru/" mathod="POST" autocomplete="off">
+          <label class="hero__label">Ism Familiya
+            <input class="hero__input1" name="name" type="text" placeholder="Ismingini kiriting" required >
+          </label>
+        
+          <label class="hero__label">Companiyani kiriting
+            <input class="hero__input2" name="workplace" type="text" placeholder="Companiya" required >
+          </label>
+        
+          <label class="hero__label">Telegram username
+            <input class="hero__input3" name="username" type="text" placeholder="Username" required >
+          </label>
+
+          <label class="hero__label">Phone number
+            <input class="hero__input4" name="Phone" value="+998 99" type="number" placeholder="+998 99" required >
+          </label>
+         
+          <label class="hero__label" for="site">Sayni turini tanlang
+            <select class="hero__select1" name="name" id="site" type="text" required>
+              <option class="hero__option" value="Corparative sayt">Corparative sayt</option>
+            </select>
+          </label>
+          
+          <label class="hero__label" for="program">Sizga bo'glanish usulini tanlang
+            <select class="hero__select2" name="program" id="program"  type="text" required>
+              <option class="hero__option" value="Telegram">Telegram</option>
+            </select>
+          </label>
+          
+          <label class="hero__label1">Message
+            <textarea class="hero__textarea" name="Massage"  required ></textarea>
+          </label>
+          <button class="hero__btn" type="submit">Jo'natish
+            <img class="hero__btn-img" src="./images/btnn.svg" alt="btn">
+          </button>
+        </form>
+        
+        
+        
+        <div class="hero__user">
+          <h1 class="hero__title" >Ux & Ui design</h1>
+          <p class="hero__text1">
+            In the current tech scenario, one can't predict what device their user will use to interact with a product. This is why it's always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+          </p>
+          <p class="hero__text2">In the current tech scenario, one can't predict what device their user will use to interact with a product. </p>
+        </div>
+      
+      </div>
+    </div>
+  </section>
 </body>
 </html>
